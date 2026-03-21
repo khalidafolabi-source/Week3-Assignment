@@ -131,16 +131,7 @@ Steps:
 - Cleaned dataset saved as:  
   *clean_transactions.csv*
 
-- Index column excluded during export  
-
----
-
-## 🔁 Reusable Pipeline Function
-
-```python
-def clean_transaction_data(file_name)
-
-## Function Features
+  ## Function Features
 - Loads Dataset
 - Performs all cleaning steps
 - Returns cleaned DataFrame
@@ -153,8 +144,23 @@ def clean_transaction_data(file_name)
  ┣ 📜 data_cleaning_script.py
  ┗ 📜 README.md
 
-## Key Learnings
+
+ ## Key Learnings
 	•	Data cleaning is a critical step in data engineering
 	•	Handling missing and inconsistent data improves data quality
 	•	Feature engineering adds business value
+	•	Writing reusable functions improves efficiency
+
+
+- Index column excluded during export  
+
+---
+
+## 🔁 Reusable Pipeline Function
+
+```python
+def clean_transaction_data(file_name)
+
+
+
 	•	Writing reusable functions improves efficiency
